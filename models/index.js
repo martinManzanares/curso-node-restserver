@@ -2,6 +2,7 @@
 // Nos ayuda a centralizar todos nuestros modelos.
 
 const Categoria = require('./categoria');
+const Producto = require('./producto');
 const Rol = require('./rol');
 const Server = require('./server');
 const Usuario = require('./usuario');
@@ -9,7 +10,8 @@ const Usuario = require('./usuario');
 
 module.exports = {
     Categoria,
+    Producto,
     Rol,
     Server,
-    Usuario
+    Usuario,
 }
